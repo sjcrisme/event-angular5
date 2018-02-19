@@ -1,0 +1,20 @@
+.example-section{
+  display: flex;
+  flex-direction:column;
+}
+
+/* div.left{
+  float: left;
+  padding-left: 5px;
+  width: 40%;
+}
+div.right{
+  float: right;
+  padding-right: 5px;
+  width: 40%;
+} */
+
+.container{
+  display: flex;
+  flex-direction: row;
+}

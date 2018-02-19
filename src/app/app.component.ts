@@ -9,7 +9,4 @@ export class AppComponent {
   title = 'app';
   notes = [ {name: 'One', updated: '10.02.2017'},
             {name: 'Twjh', updated: '11.02.2017'}];
-  good = false;
-  bad = false;
-  dknow = false;
 }
