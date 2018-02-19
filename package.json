@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "concurrently \"npm run server\" \"ng serve\"",
+    "server": "json-server --watch server/api/db.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -25,7 +26,9 @@
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
     "angular-dev-kit": "^1.0.0",
+    "concurrently": "^3.5.1",
     "core-js": "^2.4.1",
+    "json-server": "^0.12.1",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },

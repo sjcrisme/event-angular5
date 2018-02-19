@@ -1,0 +1,7 @@
+{
+  "users":[
+    {"id":1, "name": "Tester", "status":[true,true,true] },
+    {"id":2, "name": "Halk", "status":[true,true,true] },
+    {"id":3, "name": "some Other", "status":[true,true,true] }
+  ]
+}
