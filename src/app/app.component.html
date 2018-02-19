@@ -6,6 +6,11 @@
 <h3 mat-subheader>Notes</h3>
 <ul>
   <li *ngFor="let note of notes">
-      <app-user-cart [note]="note"></app-user-cart>
+      <app-user-cart [note]="note" (otherChangeEvent)="getFromUser($event)"></app-user-cart>
   </li>
 </ul>
+
+<h3>GOOD : {{Total_Status_1}}</h3>
+<h3>BAD : {{Total_Status_2}}</h3>
+<h3>Dont Know : {{Total_Status_3}}</h3>
+

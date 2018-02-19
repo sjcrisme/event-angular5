@@ -6,3 +6,7 @@
   clear: both;
   height: 104px;
 }
+
+li{
+  list-style: none;
+}

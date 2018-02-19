@@ -18,3 +18,14 @@ div.right{
   display: flex;
   flex-direction: row;
 }
+.right{
+  width: 107px;
+  position: relative;
+  right: -105px;
+  top: -91px;
+}
+.mat-card{
+  height: 100px;
+  margin: 0px;
+  padding: 17px;
+}

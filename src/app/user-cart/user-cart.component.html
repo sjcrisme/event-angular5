@@ -1,11 +1,11 @@
 <mat-card>
   <div class="left">
-    <mat-icon mat-list-icon>account circle</mat-icon>
+    <mat-icon mat-list-icon>account_circle</mat-icon>
     <h4 mat-line>{{note.name}}</h4>
-    <p mat-line> {{note.updated | date}} </p>
+    <p mat-line> {{note.updated}} </p>
   </div>
 
   <div class="right">
-    <app-checker [status]="note.status"></app-checker>
+    <app-checker [status]="note" (changeEvent)="getFromChecker($event)"></app-checker>
   </div>
 </mat-card>

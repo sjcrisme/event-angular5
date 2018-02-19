@@ -2,5 +2,7 @@
     <!-- <mat-checkbox class="example-margin" [(ngModel)]="status[0]" (change)="checkOptions($event)">Good</mat-checkbox>
     <mat-checkbox class="example-margin" [(ngModel)]="status[1]">Bad</mat-checkbox>
     <mat-checkbox class="example-margin" [(ngModel)]="status[2]">Dont know</mat-checkbox> -->
-    <mat-checkbox class="example-margin" *ngFor="let chek of status;let i=index" (change)="checkOptions($event,i)">{{name[i]}}</mat-checkbox>
+    <mat-checkbox class="example-margin"
+     *ngFor="let chek of status.status;let i=index"
+     (change)="checkOptions($event, i, status.id)">{{name[i]}}</mat-checkbox>
 </section>
