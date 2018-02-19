@@ -6,10 +6,6 @@
   </div>
 
   <div class="right">
-    <section class="example-section">
-      <mat-checkbox class="example-margin" [(ngModel)]="good">Good</mat-checkbox>
-      <mat-checkbox class="example-margin" [(ngModel)]="bad">Bad</mat-checkbox>
-      <mat-checkbox class="example-margin" [(ngModel)]="dknow">Dont know</mat-checkbox>
-    </section>
+    <app-checker [status]="note.status"></app-checker>
   </div>
 </mat-card>

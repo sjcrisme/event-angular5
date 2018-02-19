@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  notes = [ {name: 'One', updated: '10.02.2017'},
-            {name: 'Twjh', updated: '11.02.2017'}];
+  notes = [ {name: 'One', updated: '10.02.2017', status: [true, false, false]},
+            {name: 'Twjh', updated: '11.02.2017', status: [false, false, false]},
+            {name: 'Third', updated: '11.02.2017', status: [false, false, false]},
+            {name: 'Hobbit', updated: '12.02.2017', status: [false, false, false]}];
 }
